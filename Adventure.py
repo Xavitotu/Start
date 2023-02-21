@@ -5,7 +5,7 @@ import time
 def name(na):
     slowprint(nam)
 
-def slowprint(s, speed=0.0):
+def slowprint(s, speed=0.05):
      for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush() # defeat buffering
